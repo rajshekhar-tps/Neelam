@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2C4D2D244DA82A00E988EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C4D2C244DA82A00E988EA /* AppDelegate.swift */; };
+		CC2C4D2F244DA82A00E988EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C4D2E244DA82A00E988EA /* SceneDelegate.swift */; };
+		CC2C4D31244DA82A00E988EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C4D30244DA82A00E988EA /* ViewController.swift */; };
+		CC2C4D34244DA82A00E988EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2C4D32244DA82A00E988EA /* Main.storyboard */; };
+		CC2C4D36244DA82B00E988EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2C4D35244DA82B00E988EA /* Assets.xcassets */; };
+		CC2C4D39244DA82B00E988EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2C4D37244DA82B00E988EA /* LaunchScreen.storyboard */; };
+		DD03839003C6F0EED7AB2B72 /* Pods_Neelam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF74846E6968856B665FC8F /* Pods_Neelam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		240B07EFEB79159801F9078E /* Pods-Neelam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neelam.release.xcconfig"; path = "Target Support Files/Pods-Neelam/Pods-Neelam.release.xcconfig"; sourceTree = "<group>"; };
+		9AF74846E6968856B665FC8F /* Pods_Neelam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neelam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2C4D29244DA82A00E988EA /* Neelam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neelam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2C4D2C244DA82A00E988EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC2C4D2E244DA82A00E988EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC2C4D30244DA82A00E988EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC2C4D33244DA82A00E988EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2C4D35244DA82B00E988EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2C4D38244DA82B00E988EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2C4D3A244DA82B00E988EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264484B7523F9A3DD77F4CD /* Pods-Neelam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neelam.debug.xcconfig"; path = "Target Support Files/Pods-Neelam/Pods-Neelam.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2C4D26244DA82A00E988EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD03839003C6F0EED7AB2B72 /* Pods_Neelam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F89945CB4AA15BF5572F442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D264484B7523F9A3DD77F4CD /* Pods-Neelam.debug.xcconfig */,
+				240B07EFEB79159801F9078E /* Pods-Neelam.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		960D6CF2386D8A2AB89763FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF74846E6968856B665FC8F /* Pods_Neelam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2C4D20244DA82A00E988EA = {
+			isa = PBXGroup;
+			children = (
+				CC2C4D2B244DA82A00E988EA /* Neelam */,
+				CC2C4D2A244DA82A00E988EA /* Products */,
+				1F89945CB4AA15BF5572F442 /* Pods */,
+				960D6CF2386D8A2AB89763FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2C4D2A244DA82A00E988EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2C4D29244DA82A00E988EA /* Neelam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2C4D2B244DA82A00E988EA /* Neelam */ = {
+			isa = PBXGroup;
+			children = (
+				CC2C4D2C244DA82A00E988EA /* AppDelegate.swift */,
+				CC2C4D2E244DA82A00E988EA /* SceneDelegate.swift */,
+				CC2C4D30244DA82A00E988EA /* ViewController.swift */,
+				CC2C4D32244DA82A00E988EA /* Main.storyboard */,
+				CC2C4D35244DA82B00E988EA /* Assets.xcassets */,
+				CC2C4D37244DA82B00E988EA /* LaunchScreen.storyboard */,
+				CC2C4D3A244DA82B00E988EA /* Info.plist */,
+			);
+			path = Neelam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2C4D28244DA82A00E988EA /* Neelam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2C4D3D244DA82B00E988EA /* Build configuration list for PBXNativeTarget "Neelam" */;
+			buildPhases = (
+				5CB35793AB0AEE5CBABA0170 /* [CP] Check Pods Manifest.lock */,
+				CC2C4D25244DA82A00E988EA /* Sources */,
+				CC2C4D26244DA82A00E988EA /* Frameworks */,
+				CC2C4D27244DA82A00E988EA /* Resources */,
+				0F21044FBEA07DA565CDA82D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neelam;
+			productName = Neelam;
+			productReference = CC2C4D29244DA82A00E988EA /* Neelam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2C4D21244DA82A00E988EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rajshekhar Sahu";
+				TargetAttributes = {
+					CC2C4D28244DA82A00E988EA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = CC2C4D24244DA82A00E988EA /* Build configuration list for PBXProject "Neelam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2C4D20244DA82A00E988EA;
+			productRefGroup = CC2C4D2A244DA82A00E988EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2C4D28244DA82A00E988EA /* Neelam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2C4D27244DA82A00E988EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2C4D39244DA82B00E988EA /* LaunchScreen.storyboard in Resources */,
+				CC2C4D36244DA82B00E988EA /* Assets.xcassets in Resources */,
+				CC2C4D34244DA82A00E988EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F21044FBEA07DA565CDA82D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neelam/Pods-Neelam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neelam/Pods-Neelam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neelam/Pods-Neelam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB35793AB0AEE5CBABA0170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neelam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2C4D25244DA82A00E988EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2C4D31244DA82A00E988EA /* ViewController.swift in Sources */,
+				CC2C4D2D244DA82A00E988EA /* AppDelegate.swift in Sources */,
+				CC2C4D2F244DA82A00E988EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC2C4D32244DA82A00E988EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2C4D33244DA82A00E988EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2C4D37244DA82B00E988EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2C4D38244DA82B00E988EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2C4D3B244DA82B00E988EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC2C4D3C244DA82B00E988EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2C4D3E244DA82B00E988EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D264484B7523F9A3DD77F4CD /* Pods-Neelam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Neelam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.Neelam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2C4D3F244DA82B00E988EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240B07EFEB79159801F9078E /* Pods-Neelam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Neelam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raj.Neelam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2C4D24244DA82A00E988EA /* Build configuration list for PBXProject "Neelam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2C4D3B244DA82B00E988EA /* Debug */,
+				CC2C4D3C244DA82B00E988EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2C4D3D244DA82B00E988EA /* Build configuration list for PBXNativeTarget "Neelam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2C4D3E244DA82B00E988EA /* Debug */,
+				CC2C4D3F244DA82B00E988EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2C4D21244DA82A00E988EA /* Project object */;
+}
