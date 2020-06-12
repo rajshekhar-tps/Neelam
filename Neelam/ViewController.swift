@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         
         print(reverse(text: "stressed"))
         
+        
+        
+        //String to Hex & HEx to String Conversion//
+        
         let str = "Hello"
         let data = Data(str.utf8)
         let hexString = data.map{ String(format:"%02x", $0) }.joined()
