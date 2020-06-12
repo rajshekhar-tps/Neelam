@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let data = Data(str.utf8)
         let hexString = data.map{ String(format:"%02x", $0) }.joined()
         
-        print("hexString >> \(hexString)")
+        print("Hexa Decimal String >> \(hexString)")
         
         
        let d = Data(fromHexEncodedString: hexString)!
@@ -31,6 +31,8 @@ class ViewController: UIViewController {
 
 
 }
+
+
 
 extension Data {
 
