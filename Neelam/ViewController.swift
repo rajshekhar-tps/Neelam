@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         print("String from Hex >> \(s)")
         
         
-        print("ORANGE")
+        print("PINEAPPLE")
     }
 
 }
