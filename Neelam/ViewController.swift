@@ -31,8 +31,10 @@ class ViewController: UIViewController {
        let s = String(data: d, encoding: .isoLatin1)
         
         print("String from Hex >> \(s)")
+        
+        
+        print("ORANGE")
     }
-
 
 }
 
