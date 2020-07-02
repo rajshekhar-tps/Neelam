@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         
         print("PINEAPPLE")
-        print("APPLE")
+        print("BANANA")
     }
 
 }
