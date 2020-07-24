@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         
         print("PINEAPPLE")
         print("BANANA")
+        
+        superman()
     }
     
     
@@ -42,6 +44,11 @@ class ViewController: UIViewController {
         print("Your name is Peter")
     }
 
+    
+    
+    func superman(){
+        print("Superman is my friend")
+    }
 }
 
 
